@@ -1,0 +1,15 @@
+version: '3.8'
+services: 
+  api_backend:
+    build: .
+    container_name: SaraElizabeth
+    image: se
+    ports: 
+      - '3000:3000'
+    volumes:
+      - .:/app
+      - ./app/node_modules
+   
+
+
+
