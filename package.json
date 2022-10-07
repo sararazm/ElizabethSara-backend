@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon serverjs",
-    "build": "webpack --mode production"
+    "start": "nodemon serverjs"
   },
   "author": "",
   "license": "ISC",
